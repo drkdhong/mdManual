@@ -1,84 +1,54 @@
-Heroku CLI
+## Heroku CLI
 
 ==========
 
+!\[Heroku logo\]\([https://d4yt8xl9b7in.cloudfront.net/assets/home/logotype-heroku.png\](https://d4yt8xl9b7in.cloudfront.net/assets/home/logotype-heroku.png\)\)
 
+\[!\[Greenkeeper badge\]\([https://badges.greenkeeper.io/heroku/cli.svg\)\]\(https://greenkeeper.io/\](https://badges.greenkeeper.io/heroku/cli.svg%29]%28https://greenkeeper.io/\)\)
 
-!\[Heroku logo\]\(https://d4yt8xl9b7in.cloudfront.net/assets/home/logotype-heroku.png\)
+\[!\[Circle CI\]\([https://circleci.com/gh/heroku/cli/tree/master.svg?style=svg\)\]\(https://circleci.com/gh/heroku/cli/tree/master\](https://circleci.com/gh/heroku/cli/tree/master.svg?style=svg%29]%28https://circleci.com/gh/heroku/cli/tree/master\)\)
 
+\[!\[Build status\]\([https://ci.appveyor.com/api/projects/status/ouee3b9d7jwkjcr1/branch/master?svg=true\)\]\(https://ci.appveyor.com/project/Heroku/cli/branch/master\](https://ci.appveyor.com/api/projects/status/ouee3b9d7jwkjcr1/branch/master?svg=true%29]%28https://ci.appveyor.com/project/Heroku/cli/branch/master\)\)
 
+\[!\[CircleCI\]\([https://circleci.com/gh/heroku/cli-macos-installer/tree/master.svg?style=svg&circle-token=90b3b4392dc1668e97108edabdfc2c6baddc3a17\)\]\(https://circleci.com/gh/heroku/cli-macos-installer/tree/master\](https://circleci.com/gh/heroku/cli-macos-installer/tree/master.svg?style=svg&circle-token=90b3b4392dc1668e97108edabdfc2c6baddc3a17%29]%28https://circleci.com/gh/heroku/cli-macos-installer/tree/master\)\)
 
-\[!\[Greenkeeper badge\]\(https://badges.greenkeeper.io/heroku/cli.svg\)\]\(https://greenkeeper.io/\)
+\[!\[Snap Status\]\([https://build.snapcraft.io/badge/heroku/cli.svg\)\]\(https://build.snapcraft.io/user/heroku/cli\](https://build.snapcraft.io/badge/heroku/cli.svg%29]%28https://build.snapcraft.io/user/heroku/cli\)\)
 
-\[!\[Circle CI\]\(https://circleci.com/gh/heroku/cli/tree/master.svg?style=svg\)\]\(https://circleci.com/gh/heroku/cli/tree/master\)
+\[!\[ISC License\]\([https://img.shields.io/github/license/heroku/cli.svg\)\]\(https://github.com/heroku/cli/blob/master/LICENSE\](https://img.shields.io/github/license/heroku/cli.svg%29]%28https://github.com/heroku/cli/blob/master/LICENSE\)\)
 
-\[!\[Build status\]\(https://ci.appveyor.com/api/projects/status/ouee3b9d7jwkjcr1/branch/master?svg=true\)\]\(https://ci.appveyor.com/project/Heroku/cli/branch/master\)
+\[!\[homebrew\]\([https://img.shields.io/homebrew/v/heroku.svg\)\]\(https://github.com/Homebrew/homebrew-core/blob/master/Formula/heroku.rb\](https://img.shields.io/homebrew/v/heroku.svg%29]%28https://github.com/Homebrew/homebrew-core/blob/master/Formula/heroku.rb\)\)
 
-\[!\[CircleCI\]\(https://circleci.com/gh/heroku/cli-macos-installer/tree/master.svg?style=svg&circle-token=90b3b4392dc1668e97108edabdfc2c6baddc3a17\)\]\(https://circleci.com/gh/heroku/cli-macos-installer/tree/master\)
+\[!\[npm\]\([https://img.shields.io/npm/v/heroku.svg\)\]\(https://www.npmjs.com/package/heroku\](https://img.shields.io/npm/v/heroku.svg%29]%28https://www.npmjs.com/package/heroku\)\)
 
-\[!\[Snap Status\]\(https://build.snapcraft.io/badge/heroku/cli.svg\)\]\(https://build.snapcraft.io/user/heroku/cli\)
+The Heroku CLI is used to manage Heroku apps from the command line. It is built using \[oclif\]\([https://oclif.io\](https://oclif.io\)\).
 
-\[!\[ISC License\]\(https://img.shields.io/github/license/heroku/cli.svg\)\]\(https://github.com/heroku/cli/blob/master/LICENSE\)
+For more about Heroku see &lt;[https://www.heroku.com/home&gt](https://www.heroku.com/home&gt);
 
-\[!\[homebrew\]\(https://img.shields.io/homebrew/v/heroku.svg\)\]\(https://github.com/Homebrew/homebrew-core/blob/master/Formula/heroku.rb\)
-
-\[!\[npm\]\(https://img.shields.io/npm/v/heroku.svg\)\]\(https://www.npmjs.com/package/heroku\)
-
-
-
-The Heroku CLI is used to manage Heroku apps from the command line. It is built using \[oclif\]\(https://oclif.io\).
-
-
-
-For more about Heroku see &lt;https://www.heroku.com/home&gt;
-
-
-
-To get started see &lt;https://devcenter.heroku.com/start&gt;
-
-
+To get started see &lt;[https://devcenter.heroku.com/start&gt](https://devcenter.heroku.com/start&gt);
 
 Overview
 
 ========
 
-
-
 This is the next generation Node-based Heroku CLI.  The goals of this project were to make plugins more flexible, remove Ruby as a runtime dependency, and make the CLI faster.
-
-
 
 It has identical functionality to the old Ruby CLI. Under the hood, it is a modular CLI made up of node.js plugins.
 
-
-
-For more on developing plugins, read \[Developing CLI Plugins\]\(https://devcenter.heroku.com/articles/developing-cli-plugins\)
-
-
+For more on developing plugins, read \[Developing CLI Plugins\]\([https://devcenter.heroku.com/articles/developing-cli-plugins\](https://devcenter.heroku.com/articles/developing-cli-plugins\)\)
 
 Issues
 
 ======
 
+For problems directly related to the CLI, \[add an issue on GitHub\]\([https://github.com/heroku/cli/issues/new\](https://github.com/heroku/cli/issues/new\)\).
 
+For other issues, \[submit a support ticket\]\([https://help.heroku.com/\](https://help.heroku.com/\)\).
 
-For problems directly related to the CLI, \[add an issue on GitHub\]\(https://github.com/heroku/cli/issues/new\).
-
-
-
-For other issues, \[submit a support ticket\]\(https://help.heroku.com/\).
-
-
-
-\[Contributors\]\(https://github.com/heroku/cli/contributors\)
-
-
+\[Contributors\]\([https://github.com/heroku/cli/contributors\](https://github.com/heroku/cli/contributors\)\)
 
 &lt;!-- commands --&gt;
 
 \# Command Topics
-
-
 
 \* \[\`heroku access\`\]\(docs/access.md\) - manage user access to apps
 
@@ -165,8 +135,6 @@ For other issues, \[submit a support ticket\]\(https://help.heroku.com/\).
 \* \[\`heroku webhooks\`\]\(docs/webhooks.md\) - setup HTTP notifications of app activity
 
 \* \[\`heroku which\`\]\(docs/which.md\) - show which plugin a command is in
-
-
 
 &lt;!-- commandsstop --&gt;
 
